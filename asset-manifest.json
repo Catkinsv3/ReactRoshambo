@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/ReactRoshambo/static/css/main.64c95a78.chunk.css",
-    "main.js": "/ReactRoshambo/static/js/main.89de0a87.chunk.js",
-    "main.js.map": "/ReactRoshambo/static/js/main.89de0a87.chunk.js.map",
+    "main.js": "/ReactRoshambo/static/js/main.fbdbba3f.chunk.js",
+    "main.js.map": "/ReactRoshambo/static/js/main.fbdbba3f.chunk.js.map",
     "runtime-main.js": "/ReactRoshambo/static/js/runtime-main.390891e0.js",
     "runtime-main.js.map": "/ReactRoshambo/static/js/runtime-main.390891e0.js.map",
     "static/css/2.764ccc25.chunk.css": "/ReactRoshambo/static/css/2.764ccc25.chunk.css",
-    "static/js/2.a34852d0.chunk.js": "/ReactRoshambo/static/js/2.a34852d0.chunk.js",
-    "static/js/2.a34852d0.chunk.js.map": "/ReactRoshambo/static/js/2.a34852d0.chunk.js.map",
+    "static/js/2.d4a4ff06.chunk.js": "/ReactRoshambo/static/js/2.d4a4ff06.chunk.js",
+    "static/js/2.d4a4ff06.chunk.js.map": "/ReactRoshambo/static/js/2.d4a4ff06.chunk.js.map",
     "index.html": "/ReactRoshambo/index.html",
-    "precache-manifest.6daf40396084a91f9ad9fbed51d31665.js": "/ReactRoshambo/precache-manifest.6daf40396084a91f9ad9fbed51d31665.js",
+    "precache-manifest.505db13455a038c30d703e84a1e3644e.js": "/ReactRoshambo/precache-manifest.505db13455a038c30d703e84a1e3644e.js",
     "service-worker.js": "/ReactRoshambo/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/ReactRoshambo/static/css/2.764ccc25.chunk.css.map",
     "static/css/main.64c95a78.chunk.css.map": "/ReactRoshambo/static/css/main.64c95a78.chunk.css.map",
-    "static/js/2.a34852d0.chunk.js.LICENSE.txt": "/ReactRoshambo/static/js/2.a34852d0.chunk.js.LICENSE.txt",
+    "static/js/2.d4a4ff06.chunk.js.LICENSE.txt": "/ReactRoshambo/static/js/2.d4a4ff06.chunk.js.LICENSE.txt",
     "static/media/Mini Flagon Deny.mp3": "/ReactRoshambo/static/media/Mini Flagon Deny.c5e05486.mp3",
     "static/media/Mini Flagon Draw.mp3": "/ReactRoshambo/static/media/Mini Flagon Draw.82bb64d1.mp3",
     "static/media/Mini Flagon Win.mp3": "/ReactRoshambo/static/media/Mini Flagon Win.f03a91ee.mp3",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.390891e0.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.a34852d0.chunk.js",
+    "static/js/2.d4a4ff06.chunk.js",
     "static/css/main.64c95a78.chunk.css",
-    "static/js/main.89de0a87.chunk.js"
+    "static/js/main.fbdbba3f.chunk.js"
   ]
 }

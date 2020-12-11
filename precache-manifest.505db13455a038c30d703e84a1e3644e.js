@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e3dd6c08d96abff87a54281807ea9cf",
+    "revision": "89cb51baf1b6e17eccefd557c5911598",
     "url": "/ReactRoshambo/index.html"
   },
   {
-    "revision": "6b9a4963076b5ed97a1d",
+    "revision": "1d08f71c721d665eae90",
     "url": "/ReactRoshambo/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "35d275431b47e9e877f6",
+    "revision": "6c80ce8c8c4905d4e824",
     "url": "/ReactRoshambo/static/css/main.64c95a78.chunk.css"
   },
   {
-    "revision": "6b9a4963076b5ed97a1d",
-    "url": "/ReactRoshambo/static/js/2.a34852d0.chunk.js"
+    "revision": "1d08f71c721d665eae90",
+    "url": "/ReactRoshambo/static/js/2.d4a4ff06.chunk.js"
   },
   {
     "revision": "4472b9b1c403804b7335229d4dbf4deb",
-    "url": "/ReactRoshambo/static/js/2.a34852d0.chunk.js.LICENSE.txt"
+    "url": "/ReactRoshambo/static/js/2.d4a4ff06.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "35d275431b47e9e877f6",
-    "url": "/ReactRoshambo/static/js/main.89de0a87.chunk.js"
+    "revision": "6c80ce8c8c4905d4e824",
+    "url": "/ReactRoshambo/static/js/main.fbdbba3f.chunk.js"
   },
   {
     "revision": "37ed28f7e2bcf7efee5f",
