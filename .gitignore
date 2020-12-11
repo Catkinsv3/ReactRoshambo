@@ -190,4 +190,6 @@ $RECYCLE.BIN/
 
 .eslintcache
 
+.idea
+
 # End of https://www.toptal.com/developers/gitignore/api/react,webstorm+all,jetbrains+all,windows
