@@ -193,3 +193,5 @@ $RECYCLE.BIN/
 .idea
 
 # End of https://www.toptal.com/developers/gitignore/api/react,webstorm+all,jetbrains+all,windows
+.idea/inspectionProfiles/Project_Default.xml
+.idea/vcs.xml
