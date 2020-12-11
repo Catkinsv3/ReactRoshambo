@@ -1,7 +1,7 @@
 /* npm install normalize.css
    Normalizing makes all browsers render all elements more consistently.
 */
-/*@import "~normalize.css";*/
+@import "~normalize.css";
 
 /* roboto-300 - latin */
 @font-face {
