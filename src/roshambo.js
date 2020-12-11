@@ -1,13 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import styled, {keyframes} from 'styled-components';
+
 import './css/index.css';
+
 import UIfx from 'uifx';
-// import beepFile from './audio/beep-07.mp3';
 import beepWinFile from './audio/Mini Flagon Draw.mp3';
 import beepLossFile from './audio/Mini Flagon Deny.mp3';
 import beepDrawFile from './audio/Mini Flagon Win.mp3';
-// import test from './audio/UI_MENU_main.wav';
 
 const beepWin = new UIfx(
     beepWinFile,
@@ -33,17 +33,9 @@ const beepDraw = new UIfx(
     }
 );
 
-// const beep = new UIfx(beepFile);
-
-// import {Formik, Form, Field, ErrorMessage} from 'formik';
-// import * as yup from 'yup';
-
-// investigate top npm packages:
-// https://gist.github.com/anvaka/8e8fa57c7ee1350e3491?fbclid=IwAR0k_cs2ntn_gkEjYWiXB8qPnyFTLOxwjZB2Zq1ma25hfVWt_NDdYMgM0go
-
-// after above, use styled components to style everything.
-// then login screen and score tracking with formik/yup/amplify
-// then lodash, then stripe api.
+// TODO: use styled components to style everything.
+// TODO: login screen and score tracking with formik/yup/amplify
+// TODO: lodash, then stripe api.
 
 // const Grid = styled.div`
 //   display: grid;
@@ -163,15 +155,6 @@ const Move = ({onClick, classname, text, ...props}) => {
     )
 };
 
-// const Alert = (play) => {
-//     // const myRef = React.createRef();
-//     if (play) {
-//         return (
-//             <audio src={test} controls autoPlay={true}/>
-//         )
-//     }
-// };
-
 export const Game = props => {
     const initialRound = 1;
     const [round, setRound] = useState(initialRound);
@@ -193,7 +176,8 @@ export const Game = props => {
     const [lossFlash, setLossFlash] = useState(initialLossFlash);
     const initialDrawFlash = false;
     const [drawFlash, setDrawFlash] = useState(initialDrawFlash);
-    //useReducer to replace useState
+
+    // TODO: useReducer to replace useState
 
     // useEffect runs any specified function before and after render.
     // In this case it updates the tab title with the scores.
@@ -202,21 +186,6 @@ export const Game = props => {
     useEffect(() => {
         document.title = `Wins: ${wins} \u00A0\u00A0 Losses: ${losses}`;
     }, [wins, losses, draws]);
-
-    // useEffect(() => {
-    //     const timer = setTimeout(() => setWinFlash(false), 1000);
-    //     return () => clearTimeout(timer);
-    // }, [wins]);
-
-    // useEffect(() => {
-    //     const timer = setTimeout(() => setLossFlash(false), 1000);
-    //     return () => clearTimeout(timer);
-    // }, [losses]);
-    //
-    // useEffect(() => {
-    //     const timer = setTimeout(() => setDrawFlash(false), 1000);
-    //     return () => clearTimeout(timer);
-    // }, [draws]);
 
     const handleMouseDown = newPlayerMove => {
         const newRound = round + 1;
@@ -298,11 +267,11 @@ export const Game = props => {
 
 
 // ======================================== //
-ReactDOM.render(
-    // Any element can be placed here instead of, or in addition to, Game.
-    <Game/>,
-    document.getElementById('root')
-);
+// ReactDOM.render(
+//     // Any element can be placed here instead of, or in addition to, Game.
+//     <Game/>,
+//     document.getElementById('root')
+// );
 
 // ======================================== //
 
