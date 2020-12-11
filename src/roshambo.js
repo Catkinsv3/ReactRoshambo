@@ -265,16 +265,6 @@ export const Game = props => {
     );
 };
 
-
-// ======================================== //
-// ReactDOM.render(
-//     // Any element can be placed here instead of, or in addition to, Game.
-//     <Game/>,
-//     document.getElementById('root')
-// );
-
-// ======================================== //
-
 /**
  * Generate random AI move.
  *
